@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      // Get the element with the id of app
+      const app = document.getElementById("app");
+      //Create a new H1 element
+      const h1 = document.createElement("h1");
+      // Create a new text node for the h1 element
+      const text = "Hello World";
+      const headerNode = document.createTextNode(text);
+      // Append the text node to the h1 element
+      h1.appendChild(headerNode);
+      // Append the h1 element to the app element
+      app.appendChild(h1);
+    </script>
+  </body>
+</html>
